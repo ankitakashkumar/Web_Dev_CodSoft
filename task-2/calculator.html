@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<title>CALCULATOR </title>
+<link rel="style sheet"type="text/css"herf="calcstyle.css">
+</head>
+<body style="background-color:pink;">
+<form id ="mycalc"name="calc">
+<input id="display"style="width:800;hight:100;font-size:50">
+<br>
+<input type ="button"value="1" onclick="calc.display.value+='1';" style="width:100; height:100;">
+
+<input type ="button"value="2" onclick="calc.display.value+='2';" style="width:100; height:100;">
+
+<input type ="button"value="3" onclick="calc.display.value+='3';" style="width:100; height:100;">
+
+<input type ="button"value="/" onclick="calc.display.value+='/';" style="width:100; height:100; background-color:blue;">
+<br>
+<input type ="button"value="4" onclick="calc.display.value+='4';" style="width:100; height:100;">
+
+<input type ="button"value="5" onclick="calc.display.value+='5';" style="width:100; height:100;">
+
+<input type ="button"value="6" onclick="calc.display.value+='6';" style="width:100; height:100;">
+
+<input type ="button"value="-" onclick="calc.display.value+='-';" style="width:100; height:100; background-color:blue;">
+<br>
+<input type ="button"value="7" onclick="calc.display.value+='7';" style="width:100; height:100;">
+
+<input type ="button"value="8" onclick="calc.display.value+='8';" style="width:100; height:100;">
+
+<input type ="button"value="9" onclick="calc.display.value+='9';" style="width:100; height:100;">
+
+
+<input type ="button"value="*" onclick="calc.display.value+='*';" style="width:100; height:100; background-color:blue;">
+<br>
+
+<input type ="button"value="0" onclick="calc.display.value+='0';" style="width:100; height:100;">
+
+<input type ="button"value="+" onclick="calc.display.value+='+';" style="width:100; height:100; background-color:blue;">
+
+
+<input type ="button"value="=" onclick="calc.display.value=eval(calc.display.value);" style="width:100; height:100; background-color:blue;">
+
+<input type ="button"value="C" onclick="calc.display.value=' ';" style="width:100; height:100; background-color:blue;">
+
+<br>
+
+
+<input type ="button" onclick="window.close();"value="close" style="width:100; height:100; background-color:blue;">
+
+<input type ="button"value="." onclick="calc.display.value+='.';" style="width:100; height:100; background-color:blue;">
+
+
+</body>
+</html>
